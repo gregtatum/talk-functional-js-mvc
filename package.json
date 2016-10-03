@@ -1,0 +1,16 @@
+{
+  "name": "talk-functional-js-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mvc-todo": "budo todo-mvc/todo-controller -d todo-mvc -s bundle.js",
+    "functional-todo": "budo todo-functional -d todo-functional -s bundle.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "9.2.1",
+    "events": "1.1.1"
+  }
+}
